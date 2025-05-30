@@ -1,0 +1,16 @@
+2025/05/17-12:43:14.168 2bef Reusing MANIFEST /home/steven/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2025/05/17-12:43:14.176 2bef Recovering log #8
+2025/05/17-12:43:14.177 2bef Level-0 table #11: started
+2025/05/17-12:43:14.181 2bef Level-0 table #11: 50055 bytes OK
+2025/05/17-12:43:14.183 2bef Delete type=0 #8
+2025/05/17-12:43:14.183 2bf0 Compacting 4@0 + 0@1 files
+2025/05/17-12:43:14.204 2bf0 Generated table #13@0: 124 keys, 1063013 bytes
+2025/05/17-12:43:14.204 2bf0 Compacted 4@0 + 0@1 files => 1063013 bytes
+2025/05/17-12:43:14.205 2bf0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/05/17-12:43:14.206 2bf0 Delete type=2 #3
+2025/05/17-12:43:14.206 2bf0 Delete type=2 #11
+2025/05/17-12:43:14.206 2bf0 Delete type=2 #6
+2025/05/17-12:43:14.206 2bf0 Delete type=2 #9
+2025/05/17-12:47:28.899 2bf0 Level-0 table #15: started
+2025/05/17-12:47:28.916 2bf0 Level-0 table #15: 1017590 bytes OK
+2025/05/17-12:47:28.918 2bf0 Delete type=0 #12

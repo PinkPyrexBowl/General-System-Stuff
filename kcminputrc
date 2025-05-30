@@ -1,0 +1,8 @@
+[Libinput][12972][6][FRMW0004:00 32AC:0006 Consumer Control]
+NaturalScroll=true
+
+[Libinput][2362][628][PIXA3854:00 093A:0274 Mouse]
+NaturalScroll=true
+
+[Mouse]
+cursorTheme=Win10OS-cursors
