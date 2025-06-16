@@ -12,6 +12,7 @@ set ignorecase
 set showcmd
 set wildmenu
 set wildmode=list:longest
+set clipboard=unnamedplus
 
 " Clear status line when vimrc is reloaded.
 set statusline=
