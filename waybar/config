@@ -1,5 +1,5 @@
 {
-    "modules-left": ["sway/workspaces", "sway/mode", "network"],
+    "modules-left": ["hyprland/workspaces", "hyprland/mode", "network"],
     "modules-center": ["clock", "battery", "idle_inhibitor"],
     "modules-right": ["tray", "custom/scratchpad-indicator", "pulseaudio", "custom/power"],
 

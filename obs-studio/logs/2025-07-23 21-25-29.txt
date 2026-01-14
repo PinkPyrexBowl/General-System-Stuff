@@ -1,0 +1,413 @@
+21:25:29.091: Platform: Wayland
+21:25:29.091: CPU Name: AMD Ryzen 5 7640U w/ Radeon 760M Graphics
+21:25:29.091: CPU Speed: 1808.145MHz
+21:25:29.091: Physical Cores: 6, Logical Cores: 12
+21:25:29.091: Physical Memory: 31390MB Total, 15619MB Free
+21:25:29.091: Kernel Version: Linux 6.15.6-arch1-1
+21:25:29.091: Distribution: "Arch Linux" Unknown
+21:25:29.091: Desktop Environment: Hyprland (Hyprland)
+21:25:29.091: Session Type: wayland
+21:25:29.093: Qt Version: 6.9.1 (runtime), 6.9.1 (compiled)
+21:25:29.093: Portable mode: false
+21:25:29.134: OBS 31.0.4 (linux)
+21:25:29.134: ---------------------------------
+21:25:29.134: ---------------------------------
+21:25:29.134: audio settings reset:
+21:25:29.134: 	samples per sec: 48000
+21:25:29.134: 	speakers:        2
+21:25:29.134: 	max buffering:   960 milliseconds
+21:25:29.134: 	buffering type:  dynamically increasing
+21:25:29.136: ---------------------------------
+21:25:29.136: Initializing OpenGL...
+21:25:29.136: Using EGL/Wayland
+21:25:29.174: Initialized EGL 1.5
+21:25:29.185: Loading up OpenGL on adapter AMD AMD Radeon 760M Graphics (radeonsi, phoenix, LLVM 20.1.7, DRM 3.63, 6.15.6-arch1-1)
+21:25:29.186: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.5-arch1.1, shading language 4.60
+21:25:29.301: ---------------------------------
+21:25:29.301: video settings reset:
+21:25:29.301: 	base resolution:   1920x1080
+21:25:29.301: 	output resolution: 1280x720
+21:25:29.301: 	downscale filter:  Bicubic
+21:25:29.301: 	fps:               30/1
+21:25:29.301: 	format:            NV12
+21:25:29.301: 	YUV mode:          Rec. 709/Partial
+21:25:29.301: NV12 texture support enabled
+21:25:29.301: P010 texture support not available
+21:25:29.308: Audio monitoring device:
+21:25:29.308: 	name: Default
+21:25:29.308: 	id: default
+21:25:29.308: ---------------------------------
+21:25:29.318: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:25:29.325: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:25:29.332: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:25:29.332: Failed to initialize module 'decklink.so'
+21:25:29.481: [pipewire] No capture sources available
+21:25:29.552: VAAPI: API version 1.22
+21:25:29.553: FFmpeg VAAPI H264 encoding supported
+21:25:29.558: FFmpeg VAAPI AV1 encoding supported
+21:25:29.562: FFmpeg VAAPI HEVC encoding supported
+21:25:29.594: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+21:25:29.594: 
+21:25:29.594: NVENC not supported
+21:25:29.594: Failed to initialize module 'obs-nvenc.so'
+21:25:29.677: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+21:25:29.677: 
+21:25:29.680: os_dlopen(/usr/lib/obs-plugins/obs-websocket.so->/usr/lib/obs-plugins/obs-websocket.so): libqrcodegencpp.so.1: cannot open shared object file: No such file or directory
+21:25:29.680: 
+21:25:29.680: Module '/usr/lib/obs-plugins/obs-websocket.so' not loaded
+21:25:29.707: ---------------------------------
+21:25:29.707:   Loaded Modules:
+21:25:29.707:     text-freetype2.so
+21:25:29.707:     rtmp-services.so
+21:25:29.707:     obs-x264.so
+21:25:29.707:     obs-webrtc.so
+21:25:29.707:     obs-vst.so
+21:25:29.707:     obs-transitions.so
+21:25:29.707:     obs-qsv11.so
+21:25:29.707:     obs-outputs.so
+21:25:29.707:     obs-libfdk.so
+21:25:29.707:     obs-filters.so
+21:25:29.707:     obs-ffmpeg.so
+21:25:29.707:     linux-v4l2.so
+21:25:29.707:     linux-pulseaudio.so
+21:25:29.707:     linux-pipewire.so
+21:25:29.707:     linux-jack.so
+21:25:29.707:     linux-capture.so
+21:25:29.707:     linux-alsa.so
+21:25:29.707:     image-source.so
+21:25:29.707:     frontend-tools.so
+21:25:29.707:     decklink-output-ui.so
+21:25:29.707:     decklink-captions.so
+21:25:29.707: ---------------------------------
+21:25:29.707: ---------------------------------
+21:25:29.707: Available Encoders:
+21:25:29.707:   Video Encoders:
+21:25:29.707: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:25:29.707: 	- ffmpeg_aom_av1 (AOM AV1)
+21:25:29.707: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+21:25:29.707: 	- av1_ffmpeg_vaapi_tex (FFmpeg VAAPI AV1)
+21:25:29.707: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+21:25:29.707: 	- obs_x264 (x264)
+21:25:29.707:   Audio Encoders:
+21:25:29.707: 	- ffmpeg_aac (FFmpeg AAC)
+21:25:29.707: 	- ffmpeg_opus (FFmpeg Opus)
+21:25:29.708: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+21:25:29.708: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+21:25:29.708: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+21:25:29.708: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+21:25:29.708: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+21:25:29.708: 	- libfdk_aac (libfdk AAC)
+21:25:29.708: ==== Startup complete ===============================================
+21:25:29.712: No scene file found, creating default scene
+21:25:29.756: All scene data cleared
+21:25:29.756: ------------------------------------------------
+21:25:29.769: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+21:25:29.769: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:25:29.769: pulse-input: Started recording from 'alsa_output.pci-0000_c1_00.1.hdmi-stereo.monitor' (default)
+21:25:29.770: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+21:25:29.770: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+21:25:29.770: pulse-input: Started recording from 'alsa_input.pci-0000_c1_00.6.analog-stereo' (default)
+21:25:29.771: Switched to scene 'Scene'
+21:25:29.771: Created scene collection 'Untitled' (clean, Untitled.json)
+21:25:29.771: ------------------------------------------------
+21:25:30.166: [rtmp-services plugin] Successfully updated file 'services.json' (version 272)
+21:25:30.166: [rtmp-services plugin] Successfully updated package (version 272)
+21:25:30.308: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+21:25:30.308: 
+21:25:30.351: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+21:25:30.351: 
+21:26:06.065: v4l2-input: Start capture from 
+21:26:06.065: v4l2-input: Unable to open device
+21:26:06.065: v4l2-input: Initialization failed, errno: No such file or directory
+21:26:06.067: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Scene'
+21:26:06.079: v4l2-input: /dev/video1 seems to not support video capture
+21:26:06.080: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:26:06.080: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:26:06.081: v4l2-input: Found input 'loopback' (Index 0)
+21:26:06.082: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:26:06.082: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:26:06.082: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:26:06.082: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:26:06.082: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:26:06.082: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+21:26:06.082: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:26:06.083: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:26:06.084: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:26:06.084: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:26:06.084: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:26:06.084: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:26:06.084: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+21:26:06.084: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:26:06.086: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:26:06.107: v4l2-input: Start capture from /dev/video2
+21:26:06.107: v4l2-input: Input: 0
+21:26:06.107: v4l2-input: Unable to set format
+21:26:06.107: v4l2-input: Initialization failed, errno: Device or resource busy
+21:26:22.731: Attempting to reset output capability of '/dev/video0'
+21:26:22.731: Attempting to reset output capability of '/dev/video1'
+21:26:22.731: Failed to start virtual camera
+21:26:26.903: Starting Virtual Camera output to Program
+21:27:18.739: v4l2-input: /dev/video1 seems to not support video capture
+21:27:18.739: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:27:18.739: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:27:18.740: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:18.740: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:18.740: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:27:18.740: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:27:18.740: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:27:18.740: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:27:18.740: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:27:18.740: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:18.741: v4l2-input: Found input 'loopback' (Index 0)
+21:27:18.741: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:27:18.741: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:27:18.741: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:27:18.741: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:27:18.741: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:27:18.741: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:18.755: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb788c590 with focusing surface 0x560cb6fd3800
+21:27:19.344: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb788c590 with focusing surface 0x560cb6fd3800
+21:27:20.942: v4l2-input: Found input 'Camera 1' (Index 0)
+21:27:20.943: v4l2-controls: setting default for Power Line Frequency to 3
+21:27:20.943: v4l2-controls: setting default for Auto Exposure to 3
+21:27:20.943: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:27:20.943: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+21:27:20.943: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:27:20.943: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:27:20.943: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:27:20.943: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:27:20.943: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:20.973: v4l2-input: Start capture from /dev/video0
+21:27:20.974: v4l2-input: Unable to set input 0
+21:27:20.974: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:23.350: v4l2-input: Found input 'loopback' (Index 0)
+21:27:23.350: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:27:23.350: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:27:23.350: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:27:23.350: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:27:23.350: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:27:23.350: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:23.373: v4l2-input: Start capture from /dev/video2
+21:27:23.374: v4l2-input: Input: 0
+21:27:23.374: v4l2-input: Unable to set format
+21:27:23.374: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:27.116: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:27.140: v4l2-input: Start capture from /dev/video2
+21:27:27.140: v4l2-input: Input: 0
+21:27:27.140: v4l2-input: Unable to set format
+21:27:27.140: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:28.409: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:28.440: v4l2-input: Start capture from /dev/video2
+21:27:28.440: v4l2-input: Input: 0
+21:27:28.440: v4l2-input: Unable to set format
+21:27:28.440: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:30.099: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:30.107: v4l2-input: Start capture from /dev/video2
+21:27:30.107: v4l2-input: Input: 0
+21:27:30.107: v4l2-input: Unable to set format
+21:27:30.107: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:33.773: v4l2-input: Start capture from /dev/video2
+21:27:33.774: v4l2-input: Input: 0
+21:27:33.774: v4l2-input: Unable to set format
+21:27:33.774: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:35.240: v4l2-input: Start capture from /dev/video2
+21:27:35.241: v4l2-input: Input: 0
+21:27:35.241: v4l2-input: Unable to set format
+21:27:35.241: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:36.740: v4l2-input: Start capture from /dev/video2
+21:27:36.741: v4l2-input: Input: 0
+21:27:36.741: v4l2-input: Unable to set format
+21:27:36.741: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:48.473: v4l2-input: Start capture from /dev/video2
+21:27:48.474: v4l2-input: Input: 0
+21:27:48.474: v4l2-input: Unable to set format
+21:27:48.474: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:48.507: v4l2-input: Start capture from /dev/video2
+21:27:48.507: v4l2-input: Input: 0
+21:27:48.507: v4l2-input: Unable to set format
+21:27:48.507: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:51.188: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:27:51.207: v4l2-input: Start capture from /dev/video2
+21:27:51.207: v4l2-input: Input: 0
+21:27:51.207: v4l2-input: Unable to set format
+21:27:51.207: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:53.907: v4l2-input: Start capture from /dev/video2
+21:27:53.907: v4l2-input: Input: 0
+21:27:53.907: v4l2-input: Unable to set format
+21:27:53.907: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:55.040: v4l2-input: Start capture from /dev/video2
+21:27:55.041: v4l2-input: Input: 0
+21:27:55.041: v4l2-input: Unable to set format
+21:27:55.041: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:57.240: v4l2-input: Start capture from /dev/video2
+21:27:57.240: v4l2-input: Input: 0
+21:27:57.240: v4l2-input: Unable to set format
+21:27:57.240: v4l2-input: Initialization failed, errno: Device or resource busy
+21:27:59.073: v4l2-input: Start capture from /dev/video2
+21:27:59.074: v4l2-input: Input: 0
+21:27:59.074: v4l2-input: Unable to set format
+21:27:59.074: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:00.473: v4l2-input: Start capture from /dev/video2
+21:28:00.474: v4l2-input: Input: 0
+21:28:00.474: v4l2-input: Unable to set format
+21:28:00.474: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:01.840: v4l2-input: Start capture from /dev/video2
+21:28:01.841: v4l2-input: Input: 0
+21:28:01.841: v4l2-input: Unable to set format
+21:28:01.841: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:03.273: v4l2-input: Start capture from /dev/video2
+21:28:03.274: v4l2-input: Input: 0
+21:28:03.274: v4l2-input: Unable to set format
+21:28:03.274: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:04.507: v4l2-input: Start capture from /dev/video2
+21:28:04.507: v4l2-input: Input: 0
+21:28:04.507: v4l2-input: Unable to set format
+21:28:04.507: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:25.914: v4l2-input: /dev/video1 seems to not support video capture
+21:28:25.914: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:28:25.914: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:28:25.914: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:25.915: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:25.915: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:28:25.915: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:28:25.915: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:28:25.915: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:28:25.915: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:28:25.915: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:25.915: v4l2-input: Found input 'loopback' (Index 0)
+21:28:25.915: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:28:25.915: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:28:25.915: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:28:25.915: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:28:25.915: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:28:25.916: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:25.932: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb7496d30 with focusing surface 0x560cb6fd3800
+21:28:26.769: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb7496d30 with focusing surface 0x560cb6fd3800
+21:28:30.485: v4l2-input: /dev/video1 seems to not support video capture
+21:28:30.486: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:28:30.486: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:28:30.487: v4l2-input: Found input 'loopback' (Index 0)
+21:28:30.487: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:28:30.487: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:28:30.487: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:28:30.487: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:28:30.487: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:28:30.487: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+21:28:30.487: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:30.488: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:28:30.488: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:28:30.488: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:28:30.488: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:28:30.488: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:28:30.489: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+21:28:30.489: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:30.490: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:28:30.507: v4l2-input: Start capture from /dev/video2
+21:28:30.507: v4l2-input: Input: 0
+21:28:30.507: v4l2-input: Unable to set format
+21:28:30.507: v4l2-input: Initialization failed, errno: Device or resource busy
+21:28:31.134: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb7496d30 with focusing surface 0x560cb6fd3800
+21:28:34.407: v4l2-input: Start capture from /dev/video2
+21:28:34.407: v4l2-input: Input: 0
+21:28:34.408: v4l2-input: Unable to set format
+21:28:34.408: v4l2-input: Initialization failed, errno: Device or resource busy
+21:29:35.398: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb6fd3800 with focusing surface 0x560cb6fd1710
+21:29:36.659: [Media Source 'Media Source']: settings:
+21:29:36.659: 	input:                   
+21:29:36.659: 	input_format:            (null)
+21:29:36.659: 	speed:                   100
+21:29:36.659: 	is_looping:              no
+21:29:36.659: 	is_linear_alpha:         no
+21:29:36.659: 	is_hw_decoding:          no
+21:29:36.659: 	is_clear_on_media_end:   yes
+21:29:36.659: 	restart_on_activate:     yes
+21:29:36.659: 	close_when_inactive:     no
+21:29:36.659: 	full_decode:             no
+21:29:36.659: 	ffmpeg_options:          
+21:29:36.661: User added source 'Media Source' (ffmpeg_source) to scene 'Scene'
+21:29:42.625: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb74aa3a0 with focusing surface 0x560cb6fd3800
+21:29:43.016: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb74aa3a0 with focusing surface 0x560cb6fd3800
+21:29:43.495: User Removed source 'Media Source' (ffmpeg_source) from scene 'Scene'
+21:29:45.503: v4l2-input: /dev/video1 seems to not support video capture
+21:29:45.503: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:29:45.504: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:29:45.504: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:45.504: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:45.504: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:45.504: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:45.504: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:45.504: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:45.504: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:45.505: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:45.505: v4l2-input: Found input 'loopback' (Index 0)
+21:29:45.505: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:45.505: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:45.505: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:45.505: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:45.505: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:45.505: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:45.521: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb72092d0 with focusing surface 0x560cb6fd3800
+21:29:45.893: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb72092d0 with focusing surface 0x560cb6fd3800
+21:29:48.176: v4l2-input: /dev/video1 seems to not support video capture
+21:29:48.177: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:29:48.177: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:29:48.177: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.178: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.178: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:48.178: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:48.178: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:48.178: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:48.178: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:48.178: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.178: v4l2-input: Found input 'loopback' (Index 0)
+21:29:48.178: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:48.178: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:48.178: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:48.178: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:48.178: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:48.179: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.195: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb70fe940 with focusing surface 0x560cb6fd3800
+21:29:48.614: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb71a1a60 with focusing surface 0x560cb6fd3800
+21:29:48.616: v4l2-input: /dev/video1 seems to not support video capture
+21:29:48.616: v4l2-input: Found device 'Dummy video device (0x0000)' at /dev/video2
+21:29:48.617: v4l2-input: Found device 'Laptop Webcam Module (2nd Gen):' at /dev/video0
+21:29:48.617: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.617: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.617: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:48.617: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:48.617: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:48.617: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:48.617: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:48.618: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:48.618: v4l2-input: Found input 'loopback' (Index 0)
+21:29:48.618: v4l2-input: Pixelformat: Motion-JPEG (available)
+21:29:48.618: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+21:29:48.618: v4l2-input: Pixelformat: BGR3 (Emulated) (available)
+21:29:48.618: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+21:29:48.618: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+21:29:48.618: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+21:29:49.324: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb7480b10 with focusing surface 0x560cb6fd3800
+21:29:49.806: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb71a1a60 with focusing surface 0x560cb6fd3800
+21:29:50.358: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Scene'
+21:29:59.060: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+21:29:59.060: obs-data.c: [obs_data_create_from_json] Failed reading json string (1): '[' or '{' expected near end of file
+21:29:59.063: User added source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) to scene 'Scene'
+21:29:59.071: [camera-portal] Selected resolution for ''
+21:29:59.071: [camera-portal] Selected format for ''
+21:29:59.071: [camera-portal] selected camera ''
+21:29:59.081: [camera-portal] Error accessing camera: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: No such interface “org.freedesktop.portal.Camera” on object at path /org/freedesktop/portal/desktop
+21:30:01.807: [camera-portal] Updating device 
+21:30:04.536: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb2d57e00 with focusing surface 0x560cb6fd3800
+21:30:04.833: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb2d57e00 with focusing surface 0x560cb6fd3800
+21:30:05.457: User Removed source 'Video Capture Device (PipeWire) (BETA)' (pipewire-camera-source) from scene 'Scene'
+21:30:07.869: virtual void QtWaylandClient::QWaylandTextInputv3::disableSurface(wl_surface*) Try to disable surface 0x560cb6fd3800 with focusing surface 0x560cb703fdb0
+21:30:53.886: This plugin supports grabbing the mouse only for popup windows
+21:30:56.886: This plugin supports grabbing the mouse only for popup windows
+21:30:56.889: This plugin supports grabbing the mouse only for popup windows
+21:31:12.941: ==== Shutting down ==================================================
+21:31:12.944: pulse-input: Stopped recording from 'alsa_output.pci-0000_c1_00.1.hdmi-stereo.monitor'
+21:31:12.944: pulse-input: Got 13751 packets with 16501200 frames
+21:31:12.944: pulse-input: Stopped recording from 'alsa_input.pci-0000_c1_00.6.analog-stereo'
+21:31:12.944: pulse-input: Got 13726 packets with 16471200 frames
+21:31:12.988: All scene data cleared
+21:31:12.988: ------------------------------------------------

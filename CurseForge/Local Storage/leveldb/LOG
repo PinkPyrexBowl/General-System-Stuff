@@ -1,0 +1,20 @@
+2025/08/11-09:33:27.177 4b6 Reusing MANIFEST /home/steven/.config/CurseForge/Local Storage/leveldb/MANIFEST-000001
+2025/08/11-09:33:27.221 4b6 Recovering log #578
+2025/08/11-09:33:27.222 4b6 Reusing old log /home/steven/.config/CurseForge/Local Storage/leveldb/000578.log 
+2025/08/12-21:55:41.098 4b7 Level-0 table #582: started
+2025/08/12-21:55:41.108 4b7 Level-0 table #582: 31216 bytes OK
+2025/08/12-21:55:41.110 4b7 Delete type=0 #578
+2025/08/12-21:55:41.110 4b7 Compacting 4@0 + 1@1 files
+2025/08/12-21:55:41.113 4b7 Generated table #583@0: 207 keys, 47536 bytes
+2025/08/12-21:55:41.113 4b7 Compacted 4@0 + 1@1 files => 47536 bytes
+2025/08/12-21:55:41.115 4b7 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/12-21:55:41.115 4b7 Delete type=2 #574
+2025/08/12-21:55:41.115 4b7 Delete type=2 #579
+2025/08/12-21:55:41.115 4b7 Delete type=2 #577
+2025/08/12-21:55:41.115 4b7 Delete type=2 #582
+2025/08/12-21:55:41.115 4b7 Delete type=2 #571
+2025/08/13-19:49:29.035 4df Level-0 table #585: started
+2025/08/13-19:49:29.043 4df Level-0 table #585: 26518 bytes OK
+2025/08/13-19:49:29.047 4df Delete type=0 #581
+2025/08/14-23:49:07.273 4b6 Level-0 table #587: started
+2025/08/14-23:49:07.280 4b6 Level-0 table #587: 31187 bytes OK

@@ -4,5 +4,8 @@ NaturalScroll=true
 [Libinput][2362][628][PIXA3854:00 093A:0274 Mouse]
 NaturalScroll=true
 
+[Libinput][2362][628][PIXA3854:00 093A:0274 Touchpad]
+NaturalScroll=true
+
 [Mouse]
 cursorTheme=Win10OS-cursors

@@ -1,0 +1,4 @@
+[General]
+GlobalMute=true
+GlobalMuteSinks=true
+GlobalMuteSinksMutedDevices=alsa_output.pci-0000_c1_00.6.analog-stereo.0

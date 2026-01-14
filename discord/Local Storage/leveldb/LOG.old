@@ -1,6 +1,373 @@
-2025/05/17-09:50:40.628 1f19 Reusing MANIFEST /home/steven/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2025/05/17-09:50:40.637 1f19 Recovering log #5
-2025/05/17-09:50:40.637 1f19 Reusing old log /home/steven/.config/discord/Local Storage/leveldb/000005.log 
-2025/05/17-09:54:07.649 1efd Level-0 table #9: started
-2025/05/17-09:54:07.667 1efd Level-0 table #9: 1013950 bytes OK
-2025/05/17-09:54:07.670 1efd Delete type=0 #5
+2026/01/13-14:12:55.843 cd0 Reusing MANIFEST /home/steven/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2026/01/13-14:12:55.854 cd0 Recovering log #551
+2026/01/13-14:12:55.897 cd0 Level-0 table #554: started
+2026/01/13-14:12:55.934 cd0 Level-0 table #554: 4287691 bytes OK
+2026/01/13-14:12:55.938 cd0 Delete type=0 #551
+2026/01/13-14:23:55.051 cd1 Level-0 table #557: started
+2026/01/13-14:23:55.114 cd1 Level-0 table #557: 4304741 bytes OK
+2026/01/13-14:23:55.116 cd1 Delete type=0 #555
+2026/01/13-14:23:55.118 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-14:23:55.176 cd1 Generated table #558@0: 38 keys, 4258958 bytes
+2026/01/13-14:23:55.180 cd1 Generated table #559@0: 118 keys, 63830 bytes
+2026/01/13-14:23:55.180 cd1 Compacted 4@0 + 2@1 files => 4322788 bytes
+2026/01/13-14:23:55.182 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-14:23:55.182 cd1 Delete type=2 #554
+2026/01/13-14:23:55.182 cd1 Delete type=2 #546
+2026/01/13-14:23:55.182 cd1 Delete type=2 #549
+2026/01/13-14:23:55.182 cd1 Delete type=2 #557
+2026/01/13-14:23:55.182 cd1 Delete type=2 #547
+2026/01/13-14:23:55.183 cd1 Delete type=2 #552
+2026/01/13-14:25:12.154 cd1 Level-0 table #561: started
+2026/01/13-14:25:12.163 cd1 Level-0 table #561: 32903 bytes OK
+2026/01/13-14:25:12.165 cd1 Delete type=0 #556
+2026/01/13-14:30:49.612 cd1 Level-0 table #563: started
+2026/01/13-14:30:49.619 cd1 Level-0 table #563: 32588 bytes OK
+2026/01/13-14:30:49.621 cd1 Delete type=0 #560
+2026/01/13-14:33:08.453 cd1 Level-0 table #565: started
+2026/01/13-14:33:08.488 cd1 Level-0 table #565: 35785 bytes OK
+2026/01/13-14:33:08.491 cd1 Delete type=0 #562
+2026/01/13-14:42:19.241 cd1 Level-0 table #567: started
+2026/01/13-14:42:19.248 cd1 Level-0 table #567: 33866 bytes OK
+2026/01/13-14:42:19.251 cd1 Delete type=0 #564
+2026/01/13-14:42:19.251 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-14:42:19.289 cd1 Generated table #568@0: 38 keys, 4258002 bytes
+2026/01/13-14:42:19.293 cd1 Generated table #569@0: 118 keys, 64161 bytes
+2026/01/13-14:42:19.293 cd1 Compacted 4@0 + 2@1 files => 4322163 bytes
+2026/01/13-14:42:19.295 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-14:42:19.296 cd1 Delete type=2 #558
+2026/01/13-14:42:19.296 cd1 Delete type=2 #561
+2026/01/13-14:42:19.296 cd1 Delete type=2 #565
+2026/01/13-14:42:19.296 cd1 Delete type=2 #559
+2026/01/13-14:42:19.296 cd1 Delete type=2 #563
+2026/01/13-14:42:19.296 cd1 Delete type=2 #567
+2026/01/13-14:44:59.903 cd1 Level-0 table #571: started
+2026/01/13-14:44:59.911 cd1 Level-0 table #571: 32817 bytes OK
+2026/01/13-14:44:59.914 cd1 Delete type=0 #566
+2026/01/13-14:49:59.912 cd1 Level-0 table #573: started
+2026/01/13-14:49:59.920 cd1 Level-0 table #573: 37509 bytes OK
+2026/01/13-14:49:59.926 cd1 Delete type=0 #570
+2026/01/13-14:51:56.542 cd1 Level-0 table #575: started
+2026/01/13-14:51:56.552 cd1 Level-0 table #575: 33706 bytes OK
+2026/01/13-14:51:56.558 cd1 Delete type=0 #572
+2026/01/13-14:55:56.542 cd1 Level-0 table #577: started
+2026/01/13-14:55:56.551 cd1 Level-0 table #577: 33836 bytes OK
+2026/01/13-14:55:56.555 cd1 Delete type=0 #574
+2026/01/13-14:55:56.556 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-14:55:56.601 cd1 Generated table #578@0: 38 keys, 4259810 bytes
+2026/01/13-14:55:56.606 cd1 Generated table #579@0: 118 keys, 64653 bytes
+2026/01/13-14:55:56.606 cd1 Compacted 4@0 + 2@1 files => 4324463 bytes
+2026/01/13-14:55:56.610 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-14:55:56.610 cd1 Delete type=2 #568
+2026/01/13-14:55:56.611 cd1 Delete type=2 #577
+2026/01/13-14:55:56.611 cd1 Delete type=2 #569
+2026/01/13-14:55:56.611 cd1 Delete type=2 #575
+2026/01/13-14:55:56.611 cd1 Delete type=2 #573
+2026/01/13-14:55:56.611 cd1 Delete type=2 #571
+2026/01/13-14:58:25.660 cd1 Level-0 table #581: started
+2026/01/13-14:58:25.696 cd1 Level-0 table #581: 33620 bytes OK
+2026/01/13-14:58:25.701 cd1 Delete type=0 #576
+2026/01/13-14:59:56.542 cd1 Level-0 table #583: started
+2026/01/13-14:59:56.551 cd1 Level-0 table #583: 33659 bytes OK
+2026/01/13-14:59:56.556 cd1 Delete type=0 #580
+2026/01/13-15:10:41.622 cd1 Level-0 table #585: started
+2026/01/13-15:10:41.657 cd1 Level-0 table #585: 33611 bytes OK
+2026/01/13-15:10:41.662 cd1 Delete type=0 #582
+2026/01/13-15:41:41.623 cd1 Level-0 table #587: started
+2026/01/13-15:41:41.660 cd1 Level-0 table #587: 58414 bytes OK
+2026/01/13-15:41:41.664 cd1 Delete type=0 #584
+2026/01/13-15:41:41.665 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-15:41:41.714 cd1 Generated table #588@0: 38 keys, 4258019 bytes
+2026/01/13-15:41:41.720 cd1 Generated table #589@0: 118 keys, 64594 bytes
+2026/01/13-15:41:41.720 cd1 Compacted 4@0 + 2@1 files => 4322613 bytes
+2026/01/13-15:41:41.724 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-15:41:41.725 cd1 Delete type=2 #579
+2026/01/13-15:41:41.725 cd1 Delete type=2 #583
+2026/01/13-15:41:41.725 cd1 Delete type=2 #578
+2026/01/13-15:41:41.725 cd1 Delete type=2 #587
+2026/01/13-15:41:41.725 cd1 Delete type=2 #581
+2026/01/13-15:41:41.725 cd1 Delete type=2 #585
+2026/01/13-15:48:17.287 cd1 Level-0 table #591: started
+2026/01/13-15:48:17.296 cd1 Level-0 table #591: 33866 bytes OK
+2026/01/13-15:48:17.301 cd1 Delete type=0 #586
+2026/01/13-15:51:54.236 cd1 Level-0 table #593: started
+2026/01/13-15:51:54.244 cd1 Level-0 table #593: 35639 bytes OK
+2026/01/13-15:51:54.248 cd1 Delete type=0 #590
+2026/01/13-15:52:23.115 cd1 Level-0 table #595: started
+2026/01/13-15:52:23.124 cd1 Level-0 table #595: 33695 bytes OK
+2026/01/13-15:52:23.127 cd1 Delete type=0 #592
+2026/01/13-15:54:10.126 cd1 Level-0 table #597: started
+2026/01/13-15:54:10.161 cd1 Level-0 table #597: 33561 bytes OK
+2026/01/13-15:54:10.165 cd1 Delete type=0 #594
+2026/01/13-15:54:10.166 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-15:54:10.203 cd1 Generated table #598@0: 38 keys, 4258019 bytes
+2026/01/13-15:54:10.206 cd1 Generated table #599@0: 118 keys, 64601 bytes
+2026/01/13-15:54:10.206 cd1 Compacted 4@0 + 2@1 files => 4322620 bytes
+2026/01/13-15:54:10.208 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-15:54:10.208 cd1 Delete type=2 #589
+2026/01/13-15:54:10.208 cd1 Delete type=2 #597
+2026/01/13-15:54:10.208 cd1 Delete type=2 #595
+2026/01/13-15:54:10.208 cd1 Delete type=2 #588
+2026/01/13-15:54:10.208 cd1 Delete type=2 #591
+2026/01/13-15:54:10.208 cd1 Delete type=2 #593
+2026/01/13-15:54:25.370 cd1 Level-0 table #601: started
+2026/01/13-15:54:25.407 cd1 Level-0 table #601: 33514 bytes OK
+2026/01/13-15:54:25.411 cd1 Delete type=0 #596
+2026/01/13-15:55:42.762 cd1 Level-0 table #603: started
+2026/01/13-15:55:42.772 cd1 Level-0 table #603: 33642 bytes OK
+2026/01/13-15:55:42.777 cd1 Delete type=0 #600
+2026/01/13-15:57:56.230 cd1 Level-0 table #605: started
+2026/01/13-15:57:56.265 cd1 Level-0 table #605: 33794 bytes OK
+2026/01/13-15:57:56.271 cd1 Delete type=0 #602
+2026/01/13-16:00:42.761 cd1 Level-0 table #607: started
+2026/01/13-16:00:42.795 cd1 Level-0 table #607: 33891 bytes OK
+2026/01/13-16:00:42.797 cd1 Delete type=0 #604
+2026/01/13-16:00:42.797 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-16:00:42.840 cd1 Generated table #608@0: 38 keys, 4258019 bytes
+2026/01/13-16:00:42.843 cd1 Generated table #609@0: 118 keys, 64724 bytes
+2026/01/13-16:00:42.843 cd1 Compacted 4@0 + 2@1 files => 4322743 bytes
+2026/01/13-16:00:42.845 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-16:00:42.845 cd1 Delete type=2 #603
+2026/01/13-16:00:42.845 cd1 Delete type=2 #607
+2026/01/13-16:00:42.845 cd1 Delete type=2 #601
+2026/01/13-16:00:42.846 cd1 Delete type=2 #599
+2026/01/13-16:00:42.846 cd1 Delete type=2 #598
+2026/01/13-16:00:42.846 cd1 Delete type=2 #605
+2026/01/13-16:02:42.761 cd1 Level-0 table #611: started
+2026/01/13-16:02:42.797 cd1 Level-0 table #611: 33678 bytes OK
+2026/01/13-16:02:42.802 cd1 Delete type=0 #606
+2026/01/13-16:04:42.762 cd1 Level-0 table #613: started
+2026/01/13-16:04:42.799 cd1 Level-0 table #613: 33730 bytes OK
+2026/01/13-16:04:42.804 cd1 Delete type=0 #610
+2026/01/13-16:06:42.761 cd1 Level-0 table #615: started
+2026/01/13-16:06:42.768 cd1 Level-0 table #615: 33825 bytes OK
+2026/01/13-16:06:42.771 cd1 Delete type=0 #612
+2026/01/13-16:10:04.402 cd1 Level-0 table #617: started
+2026/01/13-16:10:04.412 cd1 Level-0 table #617: 33795 bytes OK
+2026/01/13-16:10:04.417 cd1 Delete type=0 #614
+2026/01/13-16:10:04.417 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-16:10:04.450 cd1 Generated table #618@0: 38 keys, 4258019 bytes
+2026/01/13-16:10:04.453 cd1 Generated table #619@0: 118 keys, 64744 bytes
+2026/01/13-16:10:04.453 cd1 Compacted 4@0 + 2@1 files => 4322763 bytes
+2026/01/13-16:10:04.455 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-16:10:04.455 cd1 Delete type=2 #617
+2026/01/13-16:10:04.455 cd1 Delete type=2 #608
+2026/01/13-16:10:04.455 cd1 Delete type=2 #611
+2026/01/13-16:10:04.455 cd1 Delete type=2 #609
+2026/01/13-16:10:04.455 cd1 Delete type=2 #615
+2026/01/13-16:10:04.455 cd1 Delete type=2 #613
+2026/01/13-16:10:42.762 cd1 Level-0 table #621: started
+2026/01/13-16:10:42.770 cd1 Level-0 table #621: 33873 bytes OK
+2026/01/13-16:10:42.772 cd1 Delete type=0 #616
+2026/01/13-16:12:42.762 cd1 Level-0 table #623: started
+2026/01/13-16:12:42.799 cd1 Level-0 table #623: 33870 bytes OK
+2026/01/13-16:12:42.803 cd1 Delete type=0 #620
+2026/01/13-16:14:42.760 cd1 Level-0 table #625: started
+2026/01/13-16:14:42.766 cd1 Level-0 table #625: 37144 bytes OK
+2026/01/13-16:14:42.768 cd1 Delete type=0 #622
+2026/01/13-16:15:42.760 cd1 Level-0 table #627: started
+2026/01/13-16:15:42.794 cd1 Level-0 table #627: 34769 bytes OK
+2026/01/13-16:15:42.796 cd1 Delete type=0 #624
+2026/01/13-16:15:42.796 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-16:15:42.831 cd1 Generated table #628@0: 38 keys, 4257770 bytes
+2026/01/13-16:15:42.834 cd1 Generated table #629@0: 119 keys, 65487 bytes
+2026/01/13-16:15:42.834 cd1 Compacted 4@0 + 2@1 files => 4323257 bytes
+2026/01/13-16:15:42.836 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-16:15:42.837 cd1 Delete type=2 #619
+2026/01/13-16:15:42.837 cd1 Delete type=2 #623
+2026/01/13-16:15:42.837 cd1 Delete type=2 #625
+2026/01/13-16:15:42.837 cd1 Delete type=2 #621
+2026/01/13-16:15:42.837 cd1 Delete type=2 #618
+2026/01/13-16:15:42.837 cd1 Delete type=2 #627
+2026/01/13-16:17:42.760 cd1 Level-0 table #631: started
+2026/01/13-16:17:42.768 cd1 Level-0 table #631: 35136 bytes OK
+2026/01/13-16:17:42.770 cd1 Delete type=0 #626
+2026/01/13-16:19:42.762 cd1 Level-0 table #633: started
+2026/01/13-16:19:42.768 cd1 Level-0 table #633: 38666 bytes OK
+2026/01/13-16:19:42.771 cd1 Delete type=0 #630
+2026/01/13-16:24:42.348 cd1 Level-0 table #635: started
+2026/01/13-16:24:42.383 cd1 Level-0 table #635: 34994 bytes OK
+2026/01/13-16:24:42.387 cd1 Delete type=0 #632
+2026/01/13-16:25:01.843 cd1 Level-0 table #637: started
+2026/01/13-16:25:01.879 cd1 Level-0 table #637: 34934 bytes OK
+2026/01/13-16:25:01.885 cd1 Delete type=0 #634
+2026/01/13-16:25:01.885 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-16:25:01.922 cd1 Generated table #638@0: 38 keys, 4258279 bytes
+2026/01/13-16:25:01.925 cd1 Generated table #639@0: 119 keys, 65884 bytes
+2026/01/13-16:25:01.925 cd1 Compacted 4@0 + 2@1 files => 4324163 bytes
+2026/01/13-16:25:01.926 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-16:25:01.927 cd1 Delete type=2 #635
+2026/01/13-16:25:01.927 cd1 Delete type=2 #631
+2026/01/13-16:25:01.927 cd1 Delete type=2 #633
+2026/01/13-16:25:01.927 cd1 Delete type=2 #629
+2026/01/13-16:25:01.927 cd1 Delete type=2 #628
+2026/01/13-16:25:01.927 cd1 Delete type=2 #637
+2026/01/13-16:25:42.762 cd1 Level-0 table #641: started
+2026/01/13-16:25:42.797 cd1 Level-0 table #641: 34974 bytes OK
+2026/01/13-16:25:42.802 cd1 Delete type=0 #636
+2026/01/13-16:31:36.184 cd1 Level-0 table #643: started
+2026/01/13-16:31:36.220 cd1 Level-0 table #643: 35137 bytes OK
+2026/01/13-16:31:36.224 cd1 Delete type=0 #640
+2026/01/13-16:33:13.859 cd1 Level-0 table #645: started
+2026/01/13-16:33:13.896 cd1 Level-0 table #645: 35068 bytes OK
+2026/01/13-16:33:13.899 cd1 Delete type=0 #642
+2026/01/13-16:35:42.466 cd1 Level-0 table #647: started
+2026/01/13-16:35:42.502 cd1 Level-0 table #647: 35103 bytes OK
+2026/01/13-16:35:42.507 cd1 Delete type=0 #644
+2026/01/13-16:35:42.508 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-16:35:42.540 cd1 Generated table #648@0: 38 keys, 4258279 bytes
+2026/01/13-16:35:42.544 cd1 Generated table #649@0: 119 keys, 66003 bytes
+2026/01/13-16:35:42.544 cd1 Compacted 4@0 + 2@1 files => 4324282 bytes
+2026/01/13-16:35:42.546 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-16:35:42.546 cd1 Delete type=2 #641
+2026/01/13-16:35:42.546 cd1 Delete type=2 #647
+2026/01/13-16:35:42.546 cd1 Delete type=2 #643
+2026/01/13-16:35:42.546 cd1 Delete type=2 #638
+2026/01/13-16:35:42.546 cd1 Delete type=2 #639
+2026/01/13-16:35:42.547 cd1 Delete type=2 #645
+2026/01/13-16:42:17.941 cd1 Level-0 table #651: started
+2026/01/13-16:42:17.948 cd1 Level-0 table #651: 35220 bytes OK
+2026/01/13-16:42:17.952 cd1 Delete type=0 #646
+2026/01/13-16:43:33.365 cd1 Level-0 table #653: started
+2026/01/13-16:43:33.374 cd1 Level-0 table #653: 35201 bytes OK
+2026/01/13-16:43:33.380 cd1 Delete type=0 #650
+2026/01/13-16:50:01.578 cd1 Level-0 table #655: started
+2026/01/13-16:50:01.587 cd1 Level-0 table #655: 35211 bytes OK
+2026/01/13-16:50:01.592 cd1 Delete type=0 #652
+2026/01/13-17:07:10.000 cd1 Level-0 table #657: started
+2026/01/13-17:07:10.037 cd1 Level-0 table #657: 35213 bytes OK
+2026/01/13-17:07:10.041 cd1 Delete type=0 #654
+2026/01/13-17:07:10.041 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-17:07:10.076 cd1 Generated table #658@0: 38 keys, 4258279 bytes
+2026/01/13-17:07:10.079 cd1 Generated table #659@0: 119 keys, 66013 bytes
+2026/01/13-17:07:10.079 cd1 Compacted 4@0 + 2@1 files => 4324292 bytes
+2026/01/13-17:07:10.081 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-17:07:10.082 cd1 Delete type=2 #657
+2026/01/13-17:07:10.082 cd1 Delete type=2 #649
+2026/01/13-17:07:10.082 cd1 Delete type=2 #651
+2026/01/13-17:07:10.082 cd1 Delete type=2 #653
+2026/01/13-17:07:10.082 cd1 Delete type=2 #648
+2026/01/13-17:07:10.082 cd1 Delete type=2 #655
+2026/01/13-17:07:42.166 cd1 Level-0 table #661: started
+2026/01/13-17:07:42.174 cd1 Level-0 table #661: 35214 bytes OK
+2026/01/13-17:07:42.178 cd1 Delete type=0 #656
+2026/01/13-17:10:22.815 cd1 Level-0 table #663: started
+2026/01/13-17:10:22.827 cd1 Level-0 table #663: 35152 bytes OK
+2026/01/13-17:10:22.831 cd1 Delete type=0 #660
+2026/01/13-17:11:32.466 cd1 Level-0 table #665: started
+2026/01/13-17:11:32.502 cd1 Level-0 table #665: 35144 bytes OK
+2026/01/13-17:11:32.508 cd1 Delete type=0 #662
+2026/01/13-17:18:04.115 cd1 Level-0 table #667: started
+2026/01/13-17:18:04.154 cd1 Level-0 table #667: 35234 bytes OK
+2026/01/13-17:18:04.159 cd1 Delete type=0 #664
+2026/01/13-17:18:04.159 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-17:18:04.193 cd1 Generated table #668@0: 38 keys, 4258279 bytes
+2026/01/13-17:18:04.196 cd1 Generated table #669@0: 119 keys, 66052 bytes
+2026/01/13-17:18:04.196 cd1 Compacted 4@0 + 2@1 files => 4324331 bytes
+2026/01/13-17:18:04.198 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-17:18:04.198 cd1 Delete type=2 #667
+2026/01/13-17:18:04.198 cd1 Delete type=2 #661
+2026/01/13-17:18:04.198 cd1 Delete type=2 #658
+2026/01/13-17:18:04.198 cd1 Delete type=2 #665
+2026/01/13-17:18:04.198 cd1 Delete type=2 #663
+2026/01/13-17:18:04.198 cd1 Delete type=2 #659
+2026/01/13-17:23:56.655 cd1 Level-0 table #671: started
+2026/01/13-17:23:56.692 cd1 Level-0 table #671: 35186 bytes OK
+2026/01/13-17:23:56.696 cd1 Delete type=0 #666
+2026/01/13-17:26:21.237 cd1 Level-0 table #673: started
+2026/01/13-17:26:21.273 cd1 Level-0 table #673: 35213 bytes OK
+2026/01/13-17:26:21.278 cd1 Delete type=0 #670
+2026/01/13-17:35:39.096 cd1 Level-0 table #675: started
+2026/01/13-17:35:39.106 cd1 Level-0 table #675: 35364 bytes OK
+2026/01/13-17:35:39.111 cd1 Delete type=0 #672
+2026/01/13-17:48:31.719 cd1 Level-0 table #677: started
+2026/01/13-17:48:31.755 cd1 Level-0 table #677: 34560 bytes OK
+2026/01/13-17:48:31.760 cd1 Delete type=0 #674
+2026/01/13-17:48:31.760 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-17:48:31.793 cd1 Generated table #678@0: 38 keys, 4257383 bytes
+2026/01/13-17:48:31.796 cd1 Generated table #679@0: 119 keys, 66177 bytes
+2026/01/13-17:48:31.796 cd1 Compacted 4@0 + 2@1 files => 4323560 bytes
+2026/01/13-17:48:31.798 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-17:48:31.799 cd1 Delete type=2 #673
+2026/01/13-17:48:31.799 cd1 Delete type=2 #669
+2026/01/13-17:48:31.799 cd1 Delete type=2 #677
+2026/01/13-17:48:31.799 cd1 Delete type=2 #668
+2026/01/13-17:48:31.799 cd1 Delete type=2 #675
+2026/01/13-17:48:31.799 cd1 Delete type=2 #671
+2026/01/13-17:50:49.345 cd1 Level-0 table #681: started
+2026/01/13-17:50:49.354 cd1 Level-0 table #681: 35531 bytes OK
+2026/01/13-17:50:49.358 cd1 Delete type=0 #676
+2026/01/13-17:52:41.474 cd1 Level-0 table #683: started
+2026/01/13-17:52:41.509 cd1 Level-0 table #683: 35479 bytes OK
+2026/01/13-17:52:41.515 cd1 Delete type=0 #680
+2026/01/13-17:55:42.420 cd1 Level-0 table #685: started
+2026/01/13-17:55:42.429 cd1 Level-0 table #685: 35402 bytes OK
+2026/01/13-17:55:42.433 cd1 Delete type=0 #682
+2026/01/13-17:57:51.712 cd1 Level-0 table #687: started
+2026/01/13-17:57:51.719 cd1 Level-0 table #687: 35450 bytes OK
+2026/01/13-17:57:51.725 cd1 Delete type=0 #684
+2026/01/13-17:57:51.726 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-17:57:51.759 cd1 Generated table #688@0: 38 keys, 4257383 bytes
+2026/01/13-17:57:51.762 cd1 Generated table #689@0: 119 keys, 66202 bytes
+2026/01/13-17:57:51.762 cd1 Compacted 4@0 + 2@1 files => 4323585 bytes
+2026/01/13-17:57:51.764 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-17:57:51.764 cd1 Delete type=2 #683
+2026/01/13-17:57:51.764 cd1 Delete type=2 #678
+2026/01/13-17:57:51.764 cd1 Delete type=2 #679
+2026/01/13-17:57:51.764 cd1 Delete type=2 #687
+2026/01/13-17:57:51.764 cd1 Delete type=2 #685
+2026/01/13-17:57:51.764 cd1 Delete type=2 #681
+2026/01/13-17:58:20.500 cd1 Level-0 table #691: started
+2026/01/13-17:58:20.537 cd1 Level-0 table #691: 35412 bytes OK
+2026/01/13-17:58:20.542 cd1 Delete type=0 #686
+2026/01/13-18:05:29.945 cd1 Level-0 table #693: started
+2026/01/13-18:05:29.985 cd1 Level-0 table #693: 35455 bytes OK
+2026/01/13-18:05:29.990 cd1 Delete type=0 #690
+2026/01/13-18:07:17.827 cd1 Level-0 table #695: started
+2026/01/13-18:07:17.835 cd1 Level-0 table #695: 35493 bytes OK
+2026/01/13-18:07:17.839 cd1 Delete type=0 #692
+2026/01/13-18:08:00.467 cd1 Level-0 table #697: started
+2026/01/13-18:08:00.473 cd1 Level-0 table #697: 35321 bytes OK
+2026/01/13-18:08:00.476 cd1 Delete type=0 #694
+2026/01/13-18:08:00.476 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-18:08:00.511 cd1 Generated table #698@0: 38 keys, 4257383 bytes
+2026/01/13-18:08:00.514 cd1 Generated table #699@0: 119 keys, 66150 bytes
+2026/01/13-18:08:00.514 cd1 Compacted 4@0 + 2@1 files => 4323533 bytes
+2026/01/13-18:08:00.516 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-18:08:00.516 cd1 Delete type=2 #697
+2026/01/13-18:08:00.516 cd1 Delete type=2 #691
+2026/01/13-18:08:00.516 cd1 Delete type=2 #695
+2026/01/13-18:08:00.516 cd1 Delete type=2 #688
+2026/01/13-18:08:00.516 cd1 Delete type=2 #693
+2026/01/13-18:08:00.516 cd1 Delete type=2 #689
+2026/01/13-18:09:33.132 cd1 Level-0 table #701: started
+2026/01/13-18:09:33.139 cd1 Level-0 table #701: 36145 bytes OK
+2026/01/13-18:09:33.142 cd1 Delete type=0 #696
+2026/01/13-18:09:46.934 cd1 Level-0 table #703: started
+2026/01/13-18:09:46.943 cd1 Level-0 table #703: 36822 bytes OK
+2026/01/13-18:09:46.948 cd1 Delete type=0 #700
+2026/01/13-18:10:33.087 cd1 Level-0 table #705: started
+2026/01/13-18:10:33.103 cd1 Level-0 table #705: 39317 bytes OK
+2026/01/13-18:10:33.105 cd1 Delete type=0 #702
+2026/01/13-18:18:40.020 cd1 Level-0 table #707: started
+2026/01/13-18:18:40.026 cd1 Level-0 table #707: 35119 bytes OK
+2026/01/13-18:18:40.029 cd1 Delete type=0 #704
+2026/01/13-18:18:40.029 cd1 Compacting 4@0 + 2@1 files
+2026/01/13-18:18:40.071 cd1 Generated table #708@0: 38 keys, 4257446 bytes
+2026/01/13-18:18:40.074 cd1 Generated table #709@0: 119 keys, 66752 bytes
+2026/01/13-18:18:40.074 cd1 Compacted 4@0 + 2@1 files => 4324198 bytes
+2026/01/13-18:18:40.076 cd1 compacted to: files[ 0 2 0 0 0 0 0 ]
+2026/01/13-18:18:40.076 cd1 Delete type=2 #703
+2026/01/13-18:18:40.076 cd1 Delete type=2 #707
+2026/01/13-18:18:40.076 cd1 Delete type=2 #705
+2026/01/13-18:18:40.076 cd1 Delete type=2 #701
+2026/01/13-18:18:40.076 cd1 Delete type=2 #698
+2026/01/13-18:18:40.076 cd1 Delete type=2 #699
+2026/01/13-18:20:49.452 cd1 Level-0 table #711: started
+2026/01/13-18:20:49.462 cd1 Level-0 table #711: 36962 bytes OK
+2026/01/13-18:20:49.467 cd1 Delete type=0 #706
+2026/01/14-07:57:37.558 cd1 Level-0 table #713: started
+2026/01/14-07:57:37.569 cd1 Level-0 table #713: 56882 bytes OK
+2026/01/14-07:57:37.572 cd1 Delete type=0 #710
+2026/01/14-07:58:37.229 cd1 Level-0 table #715: started
+2026/01/14-07:58:37.237 cd1 Level-0 table #715: 38310 bytes OK
+2026/01/14-07:58:37.241 cd1 Delete type=0 #712

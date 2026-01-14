@@ -20,6 +20,7 @@ require("lazy").setup({
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
     { import = "plugins" },
+    { "alexghergh/nvim-tmux-navigation" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -30,7 +31,6 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
   checker = {
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
@@ -52,9 +52,17 @@ require("lazy").setup({
   },
 })
 
+require("flexoki").setup({
+  plugins = {
+    "gitsigns", -- gitsigns.nvim
+    "nvim_treesitter_context",
+    "which_key", -- which-key.nvim
+  },
+})
+
+vim.cmd.colorscheme("flexoki")
+
+vim.o.background = "dark"
+
 vim.cmd([[
-  highlight Normal guibg=none
-  highlight NonText guibg=none
-  highlight Normal ctermbg=none
-  highlight NonText ctermbg=none
 ]])

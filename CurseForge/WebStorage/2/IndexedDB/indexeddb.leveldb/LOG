@@ -1,0 +1,15 @@
+2025/07/22-22:01:36.565 a4163 Reusing MANIFEST /home/steven/.config/CurseForge/WebStorage/2/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/07/22-22:01:36.565 a4163 Recovering log #11
+2025/07/22-22:01:36.565 a4163 Reusing old log /home/steven/.config/CurseForge/WebStorage/2/IndexedDB/indexeddb.leveldb/000011.log 
+2025/07/22-22:01:46.464 a4164 Level-0 table #16: started
+2025/07/22-22:01:46.466 a4164 Level-0 table #16: 209 bytes OK
+2025/07/22-22:01:46.468 a4164 Delete type=0 #11
+2025/07/22-22:01:46.469 a4164 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2025/07/22-22:01:46.469 a4164 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 15 : 1
+2025/07/22-22:01:46.469 a4164 Compacting 1@1 + 1@2 files
+2025/07/22-22:01:46.471 a4164 Generated table #17@1: 9 keys, 401 bytes
+2025/07/22-22:01:46.471 a4164 Compacted 1@1 + 1@2 files => 401 bytes
+2025/07/22-22:01:46.473 a4164 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/07/22-22:01:46.473 a4164 Delete type=2 #13
+2025/07/22-22:01:46.473 a4164 Delete type=2 #16
+2025/07/22-22:01:46.473 a4164 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 15 : 1 .. (end); will stop at (end)

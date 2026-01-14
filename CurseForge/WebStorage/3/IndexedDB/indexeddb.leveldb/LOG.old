@@ -1,0 +1,36 @@
+2025/08/13-19:49:43.294 4b6 Reusing MANIFEST /home/steven/.config/CurseForge/WebStorage/3/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2025/08/13-19:49:43.294 4b6 Recovering log #491
+2025/08/13-19:49:43.294 4b6 Reusing old log /home/steven/.config/CurseForge/WebStorage/3/IndexedDB/indexeddb.leveldb/000491.log 
+2025/08/13-19:49:43.294 4b6 Delete type=2 #490
+2025/08/13-19:49:47.349 4e1 Level-0 table #496: started
+2025/08/13-19:49:47.355 4e1 Level-0 table #496: 2297 bytes OK
+2025/08/13-19:49:47.360 4e1 Delete type=0 #491
+2025/08/13-19:49:47.362 4b6 Manual compaction at level-0 from '\x00\x91\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at '\x00\x91\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 8815 : 1
+2025/08/13-19:49:47.362 4b6 Compacting 1@0 + 1@1 files
+2025/08/13-19:49:47.368 4b6 Generated table #497@0: 139 keys, 4461 bytes
+2025/08/13-19:49:47.369 4b6 Compacted 1@0 + 1@1 files => 4461 bytes
+2025/08/13-19:49:47.381 4b6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/13-19:49:47.382 4b6 Delete type=2 #496
+2025/08/13-19:49:47.382 4b6 Manual compaction at level-0 from '\x00\x91\x00\x00\xc8\x05\x00s\x00t\x00o\x00r\x00e' @ 8815 : 1 .. '\x00\x92\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/13-19:50:05.625 4df Level-0 table #499: started
+2025/08/13-19:50:05.636 4df Level-0 table #499: 1357 bytes OK
+2025/08/13-19:50:05.647 4df Delete type=2 #493
+2025/08/13-19:50:05.647 4df Delete type=0 #495
+2025/08/13-19:50:05.648 4df Manual compaction at level-0 from '\x00\x92\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at '\x00\x92\x00\x00\x05' @ 8891 : 1
+2025/08/13-19:50:05.648 4df Compacting 1@0 + 1@1 files
+2025/08/13-19:50:05.653 4df Generated table #500@0: 155 keys, 4699 bytes
+2025/08/13-19:50:05.653 4df Compacted 1@0 + 1@1 files => 4699 bytes
+2025/08/13-19:50:05.658 4df compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/13-19:50:05.658 4df Delete type=2 #499
+2025/08/13-19:50:05.659 4b6 Manual compaction at level-0 from '\x00\x92\x00\x00\x05' @ 8891 : 1 .. '\x00\x93\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/08/13-19:50:05.659 4df Level-0 table #502: started
+2025/08/13-19:50:05.661 4df Level-0 table #502: 494 bytes OK
+2025/08/13-19:50:05.668 4df Delete type=0 #498
+2025/08/13-19:50:05.668 4df Delete type=2 #497
+2025/08/13-19:50:05.669 4b6 Manual compaction at level-0 from '\x00\x93\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x94\x00\x00\x00' @ 0 : 0; will stop at '\x00\x93\x00\x00\x05' @ 8952 : 1
+2025/08/13-19:50:05.669 4b6 Compacting 1@0 + 1@1 files
+2025/08/13-19:50:05.675 4b6 Generated table #503@0: 159 keys, 4761 bytes
+2025/08/13-19:50:05.675 4b6 Compacted 1@0 + 1@1 files => 4761 bytes
+2025/08/13-19:50:05.682 4b6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/08/13-19:50:05.682 4b6 Delete type=2 #502
+2025/08/13-19:50:05.683 4b6 Manual compaction at level-0 from '\x00\x93\x00\x00\x05' @ 8952 : 1 .. '\x00\x94\x00\x00\x00' @ 0 : 0; will stop at (end)

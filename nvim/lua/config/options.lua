@@ -3,8 +3,7 @@
 -- Add any additional options here
 
 vim.cmd([[
-  highlight Normal guibg=none
-  highlight NonText guibg=none
-  highlight Normal ctermbg=none
-  highlight NonText ctermbg=none
+  set shiftwidth=4
+  set tabstop=4
+  set expandtab
 ]])

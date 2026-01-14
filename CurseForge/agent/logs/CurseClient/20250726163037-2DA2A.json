@@ -1,0 +1,5347 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 186922,
+  "Arguments": [
+    "/tmp/.mount_CurseFmovnew/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=52754",
+    "--to-port=52774",
+    "--pid=186763",
+    "--appDataPath=/home/steven/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2025-07-26T20:30:37.2816135Z",
+  "Version": "1.282.1.27170",
+  "BuildDate": "2000-01-02T20:05:40Z",
+  "Start": "2025-07-26T16:30:37.7064672-04:00",
+  "Log": [
+{
+  "timestamp": "2025-07-26T16:30:37.6996901-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2025-07-26T16:30:37.7044109-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.282.1.27170"
+},
+{
+  "timestamp": "2025-07-26T16:30:37.704974-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=52754,--to-port=52774,--pid=186763,--appDataPath=/home/steven/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2025-07-26T16:30:37.70753-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 186763"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.3893265-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/steven/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.4890264-04:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 52754"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.5248643-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.6488339-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.6504617-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.6513273-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.6533239-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2025-07-26T16:30:38.8372785-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:30:38.8483014-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.5924804-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.5931583-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.6967152-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.6968814-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/steven/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7266367-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "129.00"
+  }
+},
+{
+  "timestamp": "2025-07-26T16:30:39.742124-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7425769-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7562824-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7567088-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7569721-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7819589-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.7820704-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.9852758-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 1 instances"
+},
+{
+  "timestamp": "2025-07-26T16:30:39.9900079-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game Minecraft (Id: 432) was detected at /home/steven/Documents/curseforge/minecraft/Instances/The Gack/"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0000628-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initialized game The Gack instance"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0016566-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 258 ms"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0022655-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0233105-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0263816-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 25 games..."
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0322684-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 1 detected game instances. Operation took 8 ms"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0338711-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.03433-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/steven/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0361839-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Setting file watcher on instance directory /home/steven/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0497114-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0498988-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.051056-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Resolving Minecraft instances list from /home/steven/Documents/curseforge/minecraft/Instances"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0517733-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Skipping existing minecraft game instance at /home/steven/Documents/curseforge/minecraft/Instances/The Gack"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0531857-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Discord RPC client initialized successfully."
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0532782-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0655678-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-07-26T16:30:40.0656107-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "/home/steven/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-07-26T16:30:40.5605949-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "[ModLoaderRepository] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "432.00"
+  }
+},
+{
+  "timestamp": "2025-07-26T16:30:40.7740201-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "133.00"
+  }
+},
+{
+  "timestamp": "2025-07-26T16:30:41.0916305-04:00",
+  "level": "Info",
+  "thread": 18,
+  "memory": 0.0,
+  "message": "Discord RPC client is ready."
+},
+{
+  "timestamp": "2025-07-26T16:30:43.8727914-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2025-07-26T16:30:43.8728384-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "/home/steven/Documents/curseforge/minecraft/Install/minecraft-launcher found."
+},
+{
+  "timestamp": "2025-07-26T16:31:04.1110273-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "InstallTask 18d4df54-69b2-4a1e-b713-4041ff63715b ForgeInstallerProvider_v2 started..."
+},
+{
+  "timestamp": "2025-07-26T16:31:04.2117798-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Client patch is already applied, skipping."
+},
+{
+  "timestamp": "2025-07-26T16:31:04.2140741-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "InstallTask 18d4df54-69b2-4a1e-b713-4041ff63715b ForgeInstallerProvider_v2 completed"
+},
+{
+  "timestamp": "2025-07-26T16:31:24.7673252-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T16:31:25.2783622-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 511ms"
+},
+{
+  "timestamp": "2025-07-26T16:33:10.6444554-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:33:11.1617467-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:38:15.9996984-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:38:16.1488834-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:43:21.3597754-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:43:21.4356204-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:46:51.9598169-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:46:52.1554084-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:46:54.840702-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:46:54.9768447-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:46:57.5835361-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:46:57.6584903-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:46:59.8511357-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:46:59.9864828-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:46:59.987176-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:47:00.0642382-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:52:00.373993-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:52:00.4643392-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T16:57:05.7219548-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T16:57:06.1667071-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:02:11.090224-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:02:11.8482831-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:07:16.4548203-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:07:17.3697167-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:12:21.8179318-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:12:22.5455536-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:16:54.9569076-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:16:56.6058384-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:17:27.1620896-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:17:27.7400891-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:19:22.7869937-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:24.0328917-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:24.2225758-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:26.8998178-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:30.1666459-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:37.750745-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:39.4687811-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:51.6171656-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:51.6173667-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network status changed: Reconnecting"
+},
+{
+  "timestamp": "2025-07-26T17:19:53.0552532-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:53.2491804-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:55.9225902-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:19:59.1926109-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:06.7786739-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:08.4953175-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:08.6463252-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:14.8545169-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:22.2147226-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:31.667488-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:38.874242-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:42.2035351-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:20:45.2352908-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:02.8956297-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:05.2235414-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:11.2534381-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:26.915592-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:34.273556-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:50.9368703-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:21:54.218294-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:22:14.9564906-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:22:17.2375257-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:22:38.9784241-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:22:58.2413008-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:22:59.6178413-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:23:03.0000304-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected, but internet not available. Waiting for connection"
+},
+{
+  "timestamp": "2025-07-26T17:23:04.2767411-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:23:04.3319478-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.4018039-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.4018424-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network status changed: Connected"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.4131788-04:00",
+  "level": "Info",
+  "thread": 34,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.4189375-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.5417793-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.5629759-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.6295289-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:10.659023-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:23:54.9175414-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1661092-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1696335-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1705209-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1710287-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1716473-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1722575-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1728053-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1734904-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.174165-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1751142-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1759198-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1764548-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.176972-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1775651-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1781167-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1786674-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1792382-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1798609-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:23:55.1804506-04:00",
+  "level": "Error",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Global Unhandled Exception",
+  "data": {
+    "Exception": {
+      "Type": "System.AggregateException",
+      "Message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+      "Inner": {
+        "Type": "System.Net.Sockets.SocketException",
+        "Message": "Resource temporarily unavailable",
+        "Stack": [
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+          "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+          "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+        ]
+      }
+    }
+  },
+  "error": {
+    "message": "A Task's exception(s) were not observed either by Waiting on the Task or accessing its Exception property. As a result, the unobserved exception was rethrown by the finalizer thread. (Resource temporarily unavailable)",
+    "type": "System.AggregateException",
+    "innerError": {
+      "message": "Resource temporarily unavailable",
+      "type": "System.Net.Sockets.SocketException",
+      "stack": [
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException(SocketError,CancellationToken)",
+        "System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16)",
+        "System.Threading.Tasks.ValueTask+ValueTaskSourceAsTask+<>c.<.cctor>b__4_0(Object)"
+      ]
+    }
+  }
+},
+{
+  "timestamp": "2025-07-26T17:28:09.6786702-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:28:09.7600915-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:29:31.57262-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Checking for updates on first load for modpack The Gack"
+},
+{
+  "timestamp": "2025-07-26T17:29:31.5744392-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Pre-Fetching latest files for instance: The Gack"
+},
+{
+  "timestamp": "2025-07-26T17:29:31.5758732-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2025-07-26T17:29:36.6304808-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetModFilesFromServer"
+},
+{
+  "timestamp": "2025-07-26T17:29:42.620215-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T17:29:43.1484571-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 528ms"
+},
+{
+  "timestamp": "2025-07-26T17:29:49.7941594-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "InstallTask a0f8b681-efbb-41b6-bda5-8561d58a50e8 ForgeInstallerProvider_v2 started..."
+},
+{
+  "timestamp": "2025-07-26T17:29:49.8440004-04:00",
+  "level": "Info",
+  "thread": 32,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Client patch is already applied, skipping."
+},
+{
+  "timestamp": "2025-07-26T17:29:49.8440712-04:00",
+  "level": "Info",
+  "thread": 33,
+  "memory": 0.0,
+  "message": "InstallTask a0f8b681-efbb-41b6-bda5-8561d58a50e8 ForgeInstallerProvider_v2 completed"
+},
+{
+  "timestamp": "2025-07-26T17:30:10.2742104-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T17:30:10.7973263-04:00",
+  "level": "Info",
+  "thread": 30,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 523ms"
+},
+{
+  "timestamp": "2025-07-26T17:30:39.5192501-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T17:30:40.5118721-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T17:33:15.0317604-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:33:15.7634703-04:00",
+  "level": "Info",
+  "thread": 31,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:38:20.4079276-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:38:26.3023086-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:43:25.7906838-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:43:25.8842854-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:48:31.1583974-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:48:31.2307435-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:53:03.2392267-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:53:04.0772631-04:00",
+  "level": "Info",
+  "thread": 29,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:53:36.5200338-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:53:36.9272183-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T17:58:41.8887789-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T17:58:42.4557361-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:03:47.2458502-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:03:47.7904034-04:00",
+  "level": "Info",
+  "thread": 27,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:08:52.6016867-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:08:52.7703647-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:13:57.9861944-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:13:58.4848291-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:19:02.9475967-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:19:03.0099509-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:23:01.8454852-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:23:02.226162-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:24:08.3398628-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:24:09.024816-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:29:13.6542762-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:29:13.9339729-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:30:39.811682-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T18:30:41.3466944-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T18:34:19.0152675-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:34:19.5892124-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:39:24.3708346-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:39:24.6515436-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:40:14.0291827-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T18:40:14.5089795-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 479ms"
+},
+{
+  "timestamp": "2025-07-26T18:40:27.6201334-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:40:27.8841978-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:40:54.7626037-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:40:54.8663572-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:46:00.1332036-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:46:00.220228-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:50:38.9893674-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:50:39.0658634-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:50:51.0906027-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:50:51.2068501-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:51:03.641934-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:51:03.739106-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:51:16.2175406-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:51:16.3187966-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:51:28.2267944-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:51:28.313198-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:51:40.2494508-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:51:40.3281716-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:51:52.2745829-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:51:52.3702348-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:52:04.8159565-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:52:04.8851388-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:52:15.8349217-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:52:15.9157507-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:52:28.4261008-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:52:28.5215829-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:52:39.4834602-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:52:39.5635367-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:52:50.073782-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:52:50.182297-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:00.9606769-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:01.1430148-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:01.1438093-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:01.2912087-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:13.1145488-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:13.2165631-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:25.1708748-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:25.6285096-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:37.1387683-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:37.232389-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:53:49.1946792-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:53:49.296514-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:54:01.2152486-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:54:01.3226817-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:54:13.2582358-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:54:13.410444-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:54:25.2654746-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:54:25.4244267-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:54:37.2979837-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:54:37.3795019-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:54:49.3386117-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:54:54.8560001-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:55:01.3571813-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:55:01.7434133-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:55:13.362518-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:55:13.4654564-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:55:25.3785466-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:55:25.5829376-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:55:37.3744365-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:55:37.4843972-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:55:49.4513404-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:55:49.5848493-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:56:01.5783748-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:56:02.1365109-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:56:13.4658173-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:56:13.5400882-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:56:25.4797391-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:56:25.5978594-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:56:37.4936528-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:56:37.5959762-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:56:49.5415837-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:56:49.7477639-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:57:01.5623096-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:57:01.7487354-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:57:13.6053488-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:57:13.7194683-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:57:25.5865657-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:57:25.6681561-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:57:37.6182802-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:57:37.7243505-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:57:49.6295167-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:57:50.4046126-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:58:01.6665675-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:58:01.8650618-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:58:13.694267-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:58:13.7830654-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:58:25.6789312-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:58:25.8058418-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:58:37.7060387-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:58:37.8224009-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:58:49.7122927-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:58:49.9790954-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:59:01.8745578-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:59:02.07296-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:59:13.7702436-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:59:13.9088972-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:59:25.8103281-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:59:25.9157929-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:59:37.8021114-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:59:37.9062051-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T18:59:49.8175416-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T18:59:49.9047938-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:00:01.8743507-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:00:01.9586606-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:00:13.8752551-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:00:13.9537884-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:00:25.9024107-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:00:25.991401-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:00:37.9301172-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:00:38.1089916-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:00:49.9314663-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:00:50.0475654-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:01:01.9818161-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:01:02.0839657-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:01:14.0254102-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:01:14.2054463-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:01:26.0246315-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:01:26.2110803-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:01:38.07859-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:01:38.2075218-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:01:50.0614331-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:01:50.35896-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:02:02.0693508-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:02:02.1570396-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:02:14.1128479-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:02:14.6228232-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:02:26.1465054-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:02:26.3141001-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:02:38.1784921-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:02:38.4374989-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:02:50.2024463-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:02:50.3622938-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:03:02.2451432-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:03:02.3260148-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:03:14.2344389-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:03:14.3444989-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:03:26.265147-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:03:26.3574217-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:03:38.2504115-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:03:38.3459092-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:03:50.2983402-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:03:50.3788059-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:04:02.3465733-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:04:02.4574684-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:04:14.3223548-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:04:14.5695978-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:04:26.3730486-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:04:26.5675735-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:04:38.3953139-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:04:38.4712877-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:04:50.396577-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:04:50.5665112-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:05:02.4673744-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:05:02.5476107-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:05:14.4941238-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:05:14.6651024-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:05:26.5052825-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:05:26.6961719-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:05:38.5225148-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:05:38.6156042-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:05:50.585406-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:05:50.9279584-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:06:02.585911-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:06:02.6711521-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:06:14.6210667-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:06:14.7010122-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:06:26.6574163-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:06:26.8324894-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:06:38.6901282-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:06:38.8791613-04:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:06:50.8262623-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:06:51.0487801-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:07:02.7015193-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:07:02.8793021-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:07:14.7376413-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:07:14.8204149-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:07:26.7546104-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:07:26.838694-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:07:38.7784629-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:07:43.9415113-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:07:50.8103969-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:07:50.8944011-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:08:02.8409844-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:08:03.0319997-04:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:08:14.844464-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:08:15.043832-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:08:26.873836-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:08:26.9802613-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:08:38.8776757-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:08:38.969855-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:08:50.8985184-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:08:50.9627497-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:09:02.9219944-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:09:03.0366433-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:09:14.9624781-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:09:15.1590863-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:09:27.0025278-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:09:27.0942052-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:09:39.0503059-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:09:39.1345932-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:09:51.0584434-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:09:51.1716501-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:10:03.1086327-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:10:03.1929585-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:10:15.1145447-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:10:15.2010118-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:10:27.1629443-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:10:27.2629177-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:10:39.1942577-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:10:39.5678932-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:10:51.2424183-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:10:51.7013924-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:11:03.2922074-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:11:03.4590016-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:11:15.3088701-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:11:15.4032199-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:11:27.2990802-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:11:27.3980851-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:11:39.3583792-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:11:40.8873557-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:11:51.3701169-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:11:52.2412402-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:12:03.4019497-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:12:03.4987986-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:12:15.4143059-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:12:15.5094427-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:12:27.4233823-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:12:27.5092182-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:12:39.4505203-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:12:39.7751414-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:12:51.5086794-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:12:51.6952757-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:13:03.5259549-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:13:03.8830193-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:13:15.5144247-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:13:15.6972358-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:13:27.5460409-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:13:27.6615024-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:13:39.5706323-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:13:39.7347271-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:13:51.5782589-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:13:51.6673092-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:14:03.5782562-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:14:03.9870936-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:14:15.6280833-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:14:15.8405574-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:14:27.6263415-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:14:27.8089037-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:14:39.6754143-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:14:40.0084919-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:14:51.689739-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:14:51.9359712-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:15:03.738186-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:15:03.8600897-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:15:15.7892404-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:15:15.9291252-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:15:27.7626186-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:15:27.937664-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:15:39.786363-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:15:39.9660929-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:15:51.8267334-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:15:52.0707518-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:16:03.8427308-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:16:04.20138-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:16:15.8257227-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:16:16.0320294-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:16:27.8687991-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:16:28.0336298-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:16:39.8735287-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:16:39.9653081-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:16:51.8939787-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:16:52.0323924-04:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:17:03.922318-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:17:04.1167752-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:17:15.9586612-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:17:16.4867908-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:17:28.0009642-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:17:28.0942156-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:17:39.991293-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:17:40.1379531-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:22:45.9938998-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:22:46.1255965-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:22:59.8125677-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:22:59.8835712-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:27:51.386361-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:27:51.5366911-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:30:08.3580126-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:30:08.6209801-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:30:20.4052829-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:30:20.5848943-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:30:32.4579641-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:30:32.6509757-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:30:40.2218926-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T19:30:43.4079736-04:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T19:30:44.4592788-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:30:44.6231136-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:30:56.5075969-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:30:58.095866-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:31:08.5372692-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:31:08.7951995-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:31:20.5696369-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:31:20.819949-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:31:32.5795063-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:31:34.4498357-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:31:44.6102815-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:31:44.7393877-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:31:56.6506019-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:31:56.7493457-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:32:08.661558-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:32:09.9881383-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:32:20.7062751-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:32:20.8648362-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:32:32.7018235-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:32:32.8981426-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:32:44.7405391-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:32:44.9216541-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:32:56.763435-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:32:56.9421974-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:33:08.8103846-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:33:08.8974338-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:33:20.8255819-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:33:20.9859293-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:33:32.8642363-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:33:32.9779685-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:33:44.8568601-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:33:44.9738517-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:33:56.8982884-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:33:57.0072302-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:34:08.9228469-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:34:09.0314451-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:34:20.9474119-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:34:21.0427589-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:34:32.9866516-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:34:33.0950519-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:34:45.0023967-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:34:45.0919371-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:34:57.0425196-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:34:57.1441913-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:35:09.0416059-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:35:09.2413053-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:35:21.0743487-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:35:21.2556027-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:35:33.0847657-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:35:33.2482669-04:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:35:45.105047-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:35:45.212831-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:35:57.1402952-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:35:57.4002393-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:37:06.0621006-04:00",
+  "level": "Info",
+  "thread": 3,
+  "memory": 0.0,
+  "message": "InstallTask 94f10348-af37-4cca-a47a-97883f3d5dd9 ForgeInstallerProvider_v2 started..."
+},
+{
+  "timestamp": "2025-07-26T19:37:06.0880666-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[Minecraft - Forge Installer] Client patch is already applied, skipping."
+},
+{
+  "timestamp": "2025-07-26T19:37:06.0881695-04:00",
+  "level": "Info",
+  "thread": 15,
+  "memory": 0.0,
+  "message": "InstallTask 94f10348-af37-4cca-a47a-97883f3d5dd9 ForgeInstallerProvider_v2 completed"
+},
+{
+  "timestamp": "2025-07-26T19:37:26.5328645-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T19:37:27.0443015-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 511ms"
+},
+{
+  "timestamp": "2025-07-26T19:41:14.6962777-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:41:14.9528276-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:46:20.0723563-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:46:20.6543282-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:51:25.4290116-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:51:25.5081541-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:52:58.8012728-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:52:58.9102306-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T19:56:30.7806969-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T19:56:30.8592065-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:01:36.1363654-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:01:36.2162281-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:06:41.4988473-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:06:41.8442383-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:11:46.8409838-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:11:47.3484759-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:16:52.2043452-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:16:52.2938385-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:21:57.5702067-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:21:57.8853713-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:22:57.8031558-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:22:57.8911931-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:27:02.9314335-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:27:03.500579-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:30:40.2584741-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T20:30:44.8049598-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T20:32:08.2874652-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:32:08.664636-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:37:13.6526399-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:37:13.8602824-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:42:19.0016761-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:42:19.1308928-04:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:47:24.3699744-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:47:24.4518935-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:52:29.7489892-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:52:29.9148754-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:52:56.7965587-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:52:57.2159929-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T20:57:35.0942826-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T20:57:35.2633877-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:02:40.437454-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:02:40.5076098-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:07:45.8243474-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:07:45.9071171-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:12:51.2059067-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:12:52.2670255-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:17:56.5569245-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:17:57.4606267-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:22:55.8020422-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:22:55.8851948-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:23:01.9119703-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:23:02.507051-04:00",
+  "level": "Info",
+  "thread": 21,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:28:07.2832239-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:28:07.7867757-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:30:40.5236824-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T21:30:46.2062025-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T21:33:12.6361019-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:33:12.895903-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:38:17.9979375-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:38:18.1284981-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:43:23.3673103-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:43:24.5967002-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:48:28.7206066-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:48:28.8233116-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:52:54.7989339-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:52:55.3443118-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:53:34.0907441-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:53:34.8592989-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T21:58:39.4299029-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T21:58:39.510834-04:00",
+  "level": "Info",
+  "thread": 13,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:03:44.8066183-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:03:44.8844963-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:08:50.1776498-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:08:50.7366198-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:13:55.5396808-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:13:55.8314036-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:19:00.9024964-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:19:01.3427914-04:00",
+  "level": "Info",
+  "thread": 24,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:22:53.7809465-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:22:54.3085468-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:24:06.2677463-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:24:07.4165173-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:29:11.6247-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:29:12.5214617-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:30:38.9595456-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T22:30:39.5067899-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 546ms"
+},
+{
+  "timestamp": "2025-07-26T22:30:39.5201528-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-07-26T22:30:39.6119171-04:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 91ms"
+},
+{
+  "timestamp": "2025-07-26T22:30:40.9647425-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2025-07-26T22:30:40.9649071-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2025-07-26T22:30:41.1870144-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Loaded 25 games from the server"
+},
+{
+  "timestamp": "2025-07-26T22:30:41.1872368-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/steven/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2025-07-26T22:30:41.2017773-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "237.00"
+  }
+},
+{
+  "timestamp": "2025-07-26T22:30:41.2038237-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "ModPack update interval of 60 minutes has elapsed. Checking for modpack updates..."
+},
+{
+  "timestamp": "2025-07-26T22:30:47.3631658-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Mods update interval of 60 minutes has elapsed. Checking for mod updates..."
+},
+{
+  "timestamp": "2025-07-26T22:34:16.999319-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:34:17.0868957-04:00",
+  "level": "Info",
+  "thread": 26,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:39:22.3552931-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:39:23.8670245-04:00",
+  "level": "Info",
+  "thread": 8,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:44:27.710523-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:44:33.9703914-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:49:33.0754534-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:49:34.625219-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:52:52.804294-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network address has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:52:53.4017395-04:00",
+  "level": "Info",
+  "thread": 25,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:54:38.4279931-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network availability has changed. Checking connection"
+},
+{
+  "timestamp": "2025-07-26T22:54:38.5059495-04:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1336362-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1337341-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1359776-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1374928-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1377504-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.137752-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1378401-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2025-07-26T22:55:15.1382242-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving MinecraftGameInstance DB with 1 items"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.6148805-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved MinecraftGameInstance DB, which took 476ms"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.6151421-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.6205782-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 5ms"
+},
+{
+  "timestamp": "2025-07-26T22:55:15.6330358-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Clearing Discord presence."
+},
+{
+  "timestamp": "2025-07-26T22:55:15.6339001-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Discord RPC client disposed successfully."
+},
+{
+  "timestamp": "2025-07-26T22:55:16.252678-04:00",
+  "level": "Info",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2025-07-26T22:55:16.2538917-04:00",
+  "level": "Warn",
+  "thread": 23,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2025-07-26T22:55:16.4337672-04:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2025-07-26T22:55:16.4339682-04:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2025-07-26T22:55:16.4488781-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2025-07-26T22:55:16.4832787-04:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}
